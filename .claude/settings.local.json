@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import fastapi\")",
+      "Bash(python -m py_compile app/*.py app/routers/*.py)",
+      "Bash(python -m venv /tmp/iosvenv)",
+      "Bash(/tmp/iosvenv/bin/pip install *)",
+      "Bash(DATABASE_URL=\"sqlite:////tmp/test_ios.db\" /tmp/iosvenv/bin/python -c \"from app.main import app; print\\('APP IMPORT OK, routes:', len\\(app.routes\\)\\)\")"
+    ]
+  }
+}
