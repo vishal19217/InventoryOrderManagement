@@ -175,6 +175,12 @@ the SQLAlchemy/psycopg2 form:
   (e.g. `https://your-api.onrender.com`). The app then calls the backend
   directly instead of the `/api` proxy.
 
+### Live deployment
+
+- Frontend: https://inventory-order-management-steel.vercel.app/
+- Backend: https://inventoryordermanagement.onrender.com/
+- PostgreSQL: managed by Render alongside the backend
+
 > Alternatively, [Railway](https://railway.app) can deploy the whole
 > `docker-compose.yml` (db + backend + frontend) from this repo in one project.
 

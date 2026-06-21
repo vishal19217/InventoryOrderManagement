@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 .venv/
-venv/
+inventory_management_env/
 *.db
 .pytest_cache/
 
